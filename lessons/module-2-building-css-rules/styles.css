@@ -1,22 +1,24 @@
 body {
-  font-family: "century gothic", sans-serif;
-  background: #c0c0c00;
+  background: #ccffcc;
+  color: #336600;
 }
 
 header {
   font-style: italic;
-}
-
-h1, h2 {
-  color: #fff000;
+  background: #336600;
+  color: #ccffcc;
 }
 
 p {
-  color: #c00000;
+  border: 3px solid;
+}
+
+ul, ol {
+  background-color: #ffff99;
+}
+
+h1, h2 {
   text-decoration: underline;
 }
 
-ul {
-  color: #ff0c00
-  background-color: #000000;
-}
+

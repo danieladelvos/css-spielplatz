@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!--<base href="/">-->    <!-- this is important for many cases. leave here for now. -->
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!--<base href="/">-->    <!-- this is important for many cases. leave here for now. -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Module 2: Building CSS Rules</title>
+    <title>Module 2: Building CSS Rules</title>
 
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 
-</head>
-<body>
-  <header>
-    <h1>Welcome to this site</h1>
-    <h2>I'm glad you made it</h2>
-  </header>
-  <p>
-    I will add text later
-  </p>
-  <ul>
-    <li>number one</li>
-    <li>number two</li>
-    <li>number three</li>
-  </ul>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Welcome to this site
+      </h1>
+    </header>
+    <p>
+      In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style. When your HTML is simple, the selectors can be simple as well. The most basic selectors simply mirror the HTML tag. For example "p" attaches to all &lt;p&gt; tags, "img" will attach to all &lt;img&gt; tags and so on. As you can imagine, there will often be times when you don't want every single HTML element of a particular type to have identical style. In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements.
+      In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind
+    </p>
+    <h2>
+      Sub Title 1
+    </h2>
+    <ul>
+      <li>How many of these HTML elements are on my page?</li>
+      <li>Do I want this style to apply to every one of these elements?</li>
+      <li>What are this HTML element's children</li>
+    </ul>
+    <h2>
+      Sub Title 2
+    </h2>
+    <ol>
+      <li>and do I want this style to apply to them as well?</li>
+      <li>Is this element a block element or an inline element</li>
+      <li>and does this style make sense in that context?</li>
+    </ol>
+  </body>
 </html>
