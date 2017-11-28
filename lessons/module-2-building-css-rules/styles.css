@@ -4,16 +4,19 @@ body {
 }
 
 header {
+  font-family: "Times New Roman", Serif;
   font-style: italic;
   background: #336600;
   color: #ccffcc;
 }
 
 p {
+  font-weight: bold;
   border: 3px solid;
 }
 
 ul, ol {
+  font-size: 2em;
   background-color: #ffff99;
 }
 
