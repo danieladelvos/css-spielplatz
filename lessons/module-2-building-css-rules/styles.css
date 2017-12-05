@@ -1,13 +1,13 @@
 body {
-  background: #ccffcc;
-  color: #336600;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #ffff99;
+  color: #000000;
 }
 
 header {
-  font-family: "Times New Roman", Serif;
   font-style: italic;
-  background: #336600;
-  color: #ccffcc;
+  background: #ffcc00;
+  color: #ff6600;
 }
 
 h1 {
@@ -17,18 +17,19 @@ h1 {
 
 p {
   font-weight: bold;
-  border: 3px dashed;
+  padding: 20px;
+  border: 3px dashed #ff6600;
   margin: 20px;
 }
 
 ul, ol {
   font-size: 1.5em;
-  background-color: #ffff99;
+  font-family: "Arial Narrow",sans-serif;
+  color: #ffff99;
+  background-color: #ffcc00;
   margin-left: 30px;
 }
 
-h1, h2 {
-  text-decoration: underline;
-}
+
 
 
