@@ -1,3 +1,43 @@
 body {
-  color: crimson;
+  background-color: #ff6600;
+  color: #ffcc00;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+input:hover {
+  border: 3px #000000 solid;
+}
+
+input:focus {
+  background-color: antiquewhite;
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+  color: antiquewhite;
+}
+
+button:focus {
+  background-color: gold;
+}
+
+li:hover {
+  background-color: darkslategrey;
+  color: #ff6600;
+}
+
+li:active {
+  background-color: #ffcc00;
+  color: #ff6600;
+}
+
+a:link {
+  color: chocolate;
+}
+
+a:visited {
+  color: navajowhite;
 }
