@@ -26,6 +26,7 @@
         enter
       </button>
     </p>
+
     <p>
       These pseudo classes are the ones you are probably most familiar with. Even on this page you've probably noticed that links have different style than paragraph text. The a tag by default sets the text color to blue with an underline, but have you ever seen a purple link? This is the "visited" pseudo-class that applies a different style to links that the user has already clicked. The opposite of visited is "link" which is a link a user has not yet clicked. These two states are mutually exclusive, meaning a link cannot be both at the same time.
     </p>
@@ -35,5 +36,45 @@
       <li>Some form factors don't support this, such as touch devices or pen surfaces</li>
     </ol>
     <a href="https://www.w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes">CSS Dynamic Pseudo-Classes</a>
+    <article>
+      <h1>
+        Contextual Selectors
+      </h1>
+      <p>
+        When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let's say we have the following HTML:
+      </p>
+      <ol>
+        <li>
+          Section 1
+        </li>
+        <li>
+          Section 2
+        </li>
+      </ol>
+    </article>
+    <article>
+      <h1>
+        Section 1
+      </h1>
+      <ol>
+        <li>
+          Item 1
+        </li>
+        <li>
+          Item 2
+          <ol>
+            <li>
+              Subitem 1
+            </li>
+            <li>
+              Subitem 2
+            </li>
+          </ol>
+        </li>
+        <li>
+          Item 3
+        </li>
+      </ol>
+    </article>
   </body>
 </html>
