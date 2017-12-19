@@ -3,6 +3,14 @@ body {
   color: #ffcc00;
 }
 
+p {
+  color: #000000;
+}
+
+.specific {
+  color: darkslategrey;
+}
+
 h1:hover {
   text-decoration: underline;
 }

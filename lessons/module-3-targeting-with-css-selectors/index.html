@@ -76,5 +76,26 @@
         </li>
       </ol>
     </article>
+    <section>
+      <article>
+        <h1>Cascading Order</h1>
+        <p>
+          It's very common for HTML elements on a page to have multiple CSS rules competing for importance. A rule is generally more specific if it applies to a fewer number of elements than another rule that encompasses those elements. The more facets a rule has the more specific it is.
+          When pseudo-classes are applied this is more specific than without the pseudo-class. For example, p:hover will win over just p.
+        </p>
+        <h1>paragraph 1</h1>
+        <p class="specific">
+          Contextual selection is more specific because it scopes the rule to elements within a certain subset of those on the page. For example, a rule that applies to all the paragraphs within articles is more specific than a rule that applies to all the paragraphs on the page.
+          IDs are most specific because you are directly applying them to the desired HTML element. The rule based on an ID will always win over other rules
+        </p>
+      </article>
+    </section>
+    <footer>
+      <h1>paragraph 2</h1>
+      <p>
+        If two rules have the exact same weight, the one that comes later in the CSS document is what is applied.
+        You can use the "!important" modifier on a CSS property so that it will guarantee that style will be applied. This is a way for you to override the calculated weight.
+      </p>
+    </footer>
   </body>
 </html>
