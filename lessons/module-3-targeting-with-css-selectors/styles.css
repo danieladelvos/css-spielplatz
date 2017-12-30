@@ -57,3 +57,27 @@ article ol {
 article ol ol {
   border: 5px chocolate solid;
 }
+
+.form {
+  color: aqua;
+}
+
+.form input {
+  background-color: #ffcc00;
+  color: cornflowerblue;
+  border: 1px #ffff99 solid;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form input:hover {
+  border: 2px #000000 solid;
+  color: azure;
+}
+ .form button {
+   background-color: #ffcc00;
+   color: #000000;
+   font-variant: all-small-caps;
+   padding: 10px 20px;
+   width: 225px;
+ }
