@@ -10,6 +10,8 @@
   color: azure;
   width: 20%;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .white {
@@ -17,4 +19,11 @@
   border: 2px lightsteelblue solid;
   width: 100%;
   height: 50%;
+}
+
+a {
+  background-color: burlywood;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
