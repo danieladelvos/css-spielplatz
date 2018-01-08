@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+}
+
 .black {
   background-color: black;
   color: azure;
+  text-align: center;
   width: 50%;
   max-width: 1000px;
 }
@@ -8,6 +13,7 @@
 .darkGrey {
   background-color: dimgrey;
   color: azure;
+  text-align: justify;
   width: 20%;
   height: 500px;
   margin-left: auto;
