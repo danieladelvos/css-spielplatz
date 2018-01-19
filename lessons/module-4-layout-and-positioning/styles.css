@@ -36,3 +36,21 @@ a {
   width: 50%;
   margin: 0 auto;
 }
+
+header {
+  background-color: #ff6600;
+  width: 100%;
+  float: left;
+}
+h1 {
+  padding: 15px;
+  float: left;
+}
+
+h2 {
+  float: right;
+}
+
+ul {
+  clear: both;
+}
