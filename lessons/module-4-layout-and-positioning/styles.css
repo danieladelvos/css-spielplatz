@@ -51,9 +51,59 @@ h1 {
 }
 
 h2 {
+  padding-top: 40px;
+  padding-right: 15px;
   float: right;
 }
 
 ul {
   clear: both;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul li {
+  list-style: none;
+}
+
+.content {
+  background-color: #ffff99;
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div{
+  background-color: #ff6600;
+  width: 40%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.topRow {
+  background-color: #ffff99;
+  width: 100%;
+  float: left;
+}
+
+.topRight {
+  float: right;
+}
+
+.bottomRow {
+  background-color: #ffff99;
+  width: 100%;
+  float: left;
+}
+
+.bottomRight {
+  float: right;
 }
